@@ -15,7 +15,7 @@ import { assets } from '../../assets/admin_assets/assets';
   
 
   const fetchAllOrders = async () => {
-    const response = await axios.get("http://localhost:4000/api/order/list");
+    const response = await axios.get("https://food-mern-project-backend.onrender.com/api/order/list");
   
     if(response.data.success) {
 
