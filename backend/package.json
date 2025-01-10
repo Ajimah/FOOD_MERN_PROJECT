@@ -5,7 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "production:server": "npm install && npm run server"
+
   },
   "author": "",
   "license": "ISC",
